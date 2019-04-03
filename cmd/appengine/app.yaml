@@ -1,10 +1,9 @@
-runtime: go
-api_version: go1
+runtime: go111
 
-handlers:
+# handlers:
 
-# All URLs are handled by the Go application script
-- url: /.*
-  script: _go_app
+# # All URLs are handled by the Go application script
+# - url: /.*
+#   script: _go_app
 
   
